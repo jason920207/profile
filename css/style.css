@@ -1,0 +1,33 @@
+/**
+ * @Author: xiaojiezhang
+ * @Date:   2018-06-05T14:47:26-04:00
+ * @Last modified by:   xiaojiezhang
+ * @Last modified time: 2018-08-26T11:44:58-04:00
+ */
+
+
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 35%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
